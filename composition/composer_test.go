@@ -2,9 +2,10 @@ package composition
 
 import (
 	"bytes"
-	"dpipeliner/data"
 	"encoding/json"
 	"testing"
+
+	"github.com/bhameyie/dpipeliner/data"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/yaml.v2"

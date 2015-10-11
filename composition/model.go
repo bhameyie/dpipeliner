@@ -1,6 +1,6 @@
 package composition
 
-import "dpipeliner/data"
+import "github.com/bhameyie/dpipeliner/data"
 
 //IComposer produces content needed for creation of docker compose file
 type IComposer interface {

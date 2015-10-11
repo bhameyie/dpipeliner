@@ -1,13 +1,14 @@
 package main
 
 import (
-	"dpipeliner/composition"
-	"dpipeliner/data"
-	"dpipeliner/deployer"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"strings"
+
+	"github.com/bhameyie/dpipeliner/composition"
+	"github.com/bhameyie/dpipeliner/data"
+	"github.com/bhameyie/dpipeliner/deployer"
 )
 
 const snapshotFile = "candidateSnapper.json"

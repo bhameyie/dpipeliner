@@ -1,10 +1,11 @@
 package main
 
 import (
-	"dpipeliner/data"
 	"io/ioutil"
 	"os"
 	"testing"
+
+	"github.com/bhameyie/dpipeliner/data"
 
 	. "gopkg.in/check.v1"
 )

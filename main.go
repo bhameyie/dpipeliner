@@ -1,13 +1,14 @@
 package main
 
 import (
-	"dpipeliner/composition"
-	"dpipeliner/data"
-	"dpipeliner/deployer"
 	"errors"
 	"flag"
 	"fmt"
 	"os"
+
+	"github.com/bhameyie/dpipeliner/composition"
+	"github.com/bhameyie/dpipeliner/data"
+	"github.com/bhameyie/dpipeliner/deployer"
 )
 
 func ensureValidSpec(serviceName, serviceVersion string) error {
